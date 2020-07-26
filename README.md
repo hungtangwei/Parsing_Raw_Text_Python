@@ -9,8 +9,9 @@ segments can be used for text analysis tasks, such as passage retrieval in IR (i
 document summarization, recommender systems, and learning-to-rank methods.
 
 ## Parsing Raw Text Files
-This assessment touches the very first step of analyzing textual data, i.e., extracting data from semi-structured text files. Each group is provided with a data-set that contains information about grants given for IP patent claims (please find your group file on the GDrive, i.e., <your_group_number>.txt). Each data-set contains information about several patent grants, e.g., patent title, patent ID, citation network, abstract etc. (see sample_input.txt). Your task is to extract the data and transform the data into the CSV and JSON format with the following elements:
+This assessment touches the very first step of analyzing textual data, i.e., extracting data from semi-structured text files. Each group is provided with a data-set that contains information about grants given for IP patent claims. Each data-set contains information about several patent grants, e.g., patent title, patent ID, citation network, abstract etc. (see sample_input.txt). 
 
+Your task is to extract the data and transform the data into the CSV and JSON format with the following elements:
 - 1. grant_id: a unique ID for a patent grant consisting of alphanumeric characters.
 - 2. patent_kind: a category to which the patent grant belongs.
 - 3. patent_title: a title given by the inventor to the patent claim.
